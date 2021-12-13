@@ -217,7 +217,6 @@ const IndexPage = ({ trendingSubs, profile, params }: any) => {
             </div>
             <div className="w-full pb-6">
               <p className="text-sm">
-                <div className="btn-outline-yellow rounded">Temporaly, our login service doesn\'t work</div>
                 Ever wanted to browse Reddit while studying at Starbucks? Or
                 while sitting on the subway to work? Worried that people around
                 you would judge the subreddits you browse and the posts you
@@ -235,6 +234,13 @@ const IndexPage = ({ trendingSubs, profile, params }: any) => {
             <div className="w-full pb-6 hidden">
               <img className="w-4/12 float-right" src="/signature.png" />
             </div>
+            <a
+              rel="noopener noreferrer"
+            >
+              <button className="mt-2 mx-1 p-2 pl-0 pb-3 cursor-pointer w-full max-w-full btn-black text-white rounded">
+                Temporaly, our login service doesn't works
+              </button>
+            </a>
             <a
               href="https://github.com/luqaska/reddium-oss"
               target="_blank"
