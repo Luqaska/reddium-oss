@@ -179,7 +179,7 @@ const IndexPage = ({ trendingSubs, profile, params }: any) => {
           <img className="mr-3" src="trending.svg" />
           <div>
             <p className="heading-text text-sm leading-4 uppercase tracking-wide sm:text-xs">
-              Trending on Reddit
+              Trending
             </p>
           </div>
         </div>
@@ -211,24 +211,22 @@ const IndexPage = ({ trendingSubs, profile, params }: any) => {
               <img className="mr-3" src="bookmarks.svg" />
               <div>
                 <p className="heading-text text-sm leading-4 uppercase tracking-wide sm:text-xs">
-                  About Reddium
+                  About
                 </p>
               </div>
             </div>
             <div className="w-full pb-6">
               <p className="text-sm">
-                <div class="btn-outline-yellow rounded" style="background:#fcef5f;padding:3px">Temporaly, our login service doesn't work</div>
+                <div class="btn-outline-yellow rounded" style="background:#fcef5f;padding:3px">Temporaly, our login service doesn\'t work</div>
                 Ever wanted to browse Reddit while studying at Starbucks? Or
                 while sitting on the subway to work? Worried that people around
                 you would judge the subreddits you browse and the posts you
                 read?
                 <br />
                 <br />
-                Reddium is a Medium-themed Reddit client. The Reddium interface
-                converts Reddit posts, discussions, and memes into well-crafted
-                articles. Medium's layout feels a little more readable than
-                Reddit's, removing all distractions and clutter. It also
-                bypasses Reddit's frustrating mobile browser.
+                Reddium.oss is a fork of <a href="https://reddium.vercel.app">Reddium</a>, a Medium-themed Reddit client.
+                The Reddium.oss interface converts Reddit posts, discussions,
+                and memes into well-crafted articles.
                 <br />
                 <br />I hope you enjoy this project! Feel free to suggest any
                 features or report bugs on GitHub.
@@ -238,23 +236,15 @@ const IndexPage = ({ trendingSubs, profile, params }: any) => {
               <img className="w-4/12 float-right" src="/signature.png" />
             </div>
             <a
-              href="https://github.com/eightants/reddium/"
+              href="https://github.com/luqaska/reddium-oss"
               target="_blank"
               rel="noopener noreferrer"
             >
               <button className="mt-2 mx-1 p-2 pl-0 pb-3 cursor-pointer w-full max-w-full btn-black text-white rounded">
-                ✨ Star on GitHub
+                ✨ Contribute on GitHub
               </button>
             </a>
             <a
-              href="https://ko-fi.com/eightants"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="mt-2 mx-1 p-2 pl-0 pb-3 cursor-pointer w-full max-w-full btn-outline-black text-white rounded">
-                ☕ Buy me a coffee
-              </button>
-            </a>
           </div>
         </div>
       </div>
