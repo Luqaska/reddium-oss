@@ -238,7 +238,7 @@ const IndexPage = ({ trendingSubs, profile, params }: any) => {
               rel="noopener noreferrer"
             >
               <button className="mt-2 mx-1 p-2 pl-0 pb-3 cursor-pointer w-full max-w-full btn-black text-white rounded">
-                Temporaly, our login service doesn't works
+                Temporally, our login service does not work
               </button>
             </a>
             <a
