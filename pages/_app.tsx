@@ -4,7 +4,7 @@ import "../styles/styles.css";
 import { useRouter } from "next/dist/client/router";
 import * as gtag from "../functions/gtag";
 import CookieBanner from "../components/CookieBanner";
-import { H } from "highlight.run";
+//import { H } from "highlight.run";
 
 /* if (typeof window !== "undefined") {
   H.init("5ldw65eo");
