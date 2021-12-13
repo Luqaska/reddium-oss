@@ -1,6 +1,6 @@
-export const DOMAIN = "https://reddium.vercel.app";
-export const REDIRECT_URI = "https://reddium.vercel.app/login";
-export const CLIENT_ID = "DT8MZ0k_rAtJ8w";
+export const DOMAIN = "http://www.reddium.oss";
+export const REDIRECT_URI = "http://www.reddium.oss/login";
+export const CLIENT_ID = "BJLuNhO1Y7812lNkdinC5A";
 
 // export const REDIRECT_URI = "http://localhost:3000/login";
 // export const CLIENT_ID = "RCOnAetgJAnYxQ";
