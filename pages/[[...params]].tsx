@@ -179,7 +179,7 @@ const IndexPage = ({ trendingSubs, profile, params }: any) => {
           <img className="mr-3" src="trending.svg" />
           <div>
             <p className="heading-text text-sm leading-4 uppercase tracking-wide sm:text-xs">
-              Trending
+              Trending on Reddit
             </p>
           </div>
         </div>
@@ -211,7 +211,7 @@ const IndexPage = ({ trendingSubs, profile, params }: any) => {
               <img className="mr-3" src="bookmarks.svg" />
               <div>
                 <p className="heading-text text-sm leading-4 uppercase tracking-wide sm:text-xs">
-                  About
+                  About Reddium
                 </p>
               </div>
             </div>
@@ -223,9 +223,11 @@ const IndexPage = ({ trendingSubs, profile, params }: any) => {
                 read?
                 <br />
                 <br />
-                Reddium.oss is a fork of <a href="https://reddium.vercel.app">Reddium</a>, a Medium-themed Reddit client.
-                The Reddium.oss interface converts Reddit posts, discussions,
-                and memes into well-crafted articles.
+                Reddium is a Medium-themed Reddit client. The Reddium interface
+                converts Reddit posts, discussions, and memes into well-crafted
+                articles. Medium's layout feels a little more readable than
+                Reddit's, removing all distractions and clutter. It also
+                bypasses Reddit's frustrating mobile browser.
                 <br />
                 <br />I hope you enjoy this project! Feel free to suggest any
                 features or report bugs on GitHub.
@@ -235,22 +237,23 @@ const IndexPage = ({ trendingSubs, profile, params }: any) => {
               <img className="w-4/12 float-right" src="/signature.png" />
             </div>
             <a
-              rel="noopener noreferrer"
-            >
-              <button className="mt-2 mx-1 p-2 pl-0 pb-3 cursor-pointer w-full max-w-full btn-black text-white rounded">
-                Temporally, our login service does not work
-              </button>
-            </a>
-            <a
-              href="https://github.com/luqaska/reddium-oss"
+              href="https://github.com/eightants/reddium/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <button className="mt-2 mx-1 p-2 pl-0 pb-3 cursor-pointer w-full max-w-full btn-black text-white rounded">
-                ✨ Contribute on GitHub
+                ✨ Star on GitHub
               </button>
             </a>
             <a
+              href="https://ko-fi.com/eightants"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="mt-2 mx-1 p-2 pl-0 pb-3 cursor-pointer w-full max-w-full btn-outline-black text-white rounded">
+                ☕ Buy me a coffee
+              </button>
+            </a>
           </div>
         </div>
       </div>
