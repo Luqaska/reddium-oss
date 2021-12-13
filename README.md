@@ -1,7 +1,7 @@
 <h3 align="center"><img src="./public/reddium-mockup.png" width="600px" style="border-radius: 5px" alt="Whisperify"></h3>
 
 <p align="center">
-  <a href="https://reddium.vercel.app" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/visit-reddium.vercel.app-35586C.svg"></a>
+  <a href="http://reddium.oss" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/visit-reddium.oss-35586C.svg"></a>
   <a href="https://github.com/eightants/reddium/releases/latest"><img src="https://img.shields.io/github/release/eightants/reddium/all.svg?colorB=38a275?label=version"></a>
   <a href="https://ko-fi.com/eightants" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/buy_me_a-coffee-ff69b4.svg"></a>
 </p>
