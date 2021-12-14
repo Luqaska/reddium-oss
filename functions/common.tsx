@@ -1,5 +1,5 @@
 import { capitalize } from "lodash";
-import { YOUTUBE } from "../../functions/constants";
+import { YOUTUBE } from "../../../functions/constants";
 
 const DAY_MILLISECONDS = 1000 * 60 * 60 * 24;
 const HOUR_MILLISECONDS = 1000 * 60 * 60;
