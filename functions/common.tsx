@@ -1,4 +1,5 @@
 import { capitalize } from "lodash";
+import { YOUTUBE } from "../../functions/constants";
 
 const DAY_MILLISECONDS = 1000 * 60 * 60 * 24;
 const HOUR_MILLISECONDS = 1000 * 60 * 60;
@@ -66,9 +67,9 @@ export const isVideo = (url: string) =>
 
 export const getEmbedLink = (url: string) => {
   if (url.includes("youtube.com/watch")) {
-    return `https://youtube.com/embed/${url.split("=")[1]}`;
+    return `${YOUTUBE}/embed/${url.split("=")[1]}`;
   }
   if (url.includes("youtu.be")) {
-    return `https://youtube.com/embed${url.split(".be")[1]}`;
+    return `${YOUTUBE}/embed${url.split(".be")[1]}`;
   }
 };
