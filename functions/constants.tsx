@@ -48,6 +48,8 @@ export const POPULAR_PARAM_VALUES = [SORT_TYPES, TIME_PARAM_VALUES];
 
 export const LOADING_POST_LIST = { posts: new Array(15).fill({}), after: "" };
 
+export const YOUTUBE = "https://vid.puffyan.us"
+
 export const PLACEHOLDER_IMAGES = [
   "amanda-frank-e4ING8JYKgI-unsplash.jpg",
   "dylan-gillis-KdeqA3aTnBY-unsplash.jpg",
