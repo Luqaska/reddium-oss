@@ -88,15 +88,6 @@ const UserPage = ({ postData, userInfo, params }: any) => {
               </div>
               <div className="flex flex-row items-center sub-link-grey sm:mt-2 h-16 my-2">
                 <div className="mr-2 sm:ml-0">{`${admin}${userInfo.total_karma} karma`}</div>
-                <span className="px-2">·</span>
-                <div className="mx-2">
-                  <a
-                    className="link-black-hover"
-                    href={`/user/${userInfo.name}`}
-                  >
-                    Overview
-                  </a>
-                </div>
               </div>
             </div>
         </nav>
