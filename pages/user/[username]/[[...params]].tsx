@@ -82,7 +82,8 @@ const UserPage = ({ postData, userInfo, params }: any) => {
                 </a>
               </div>
               <div className="flex flex-row items-center sub-link-grey sm:mt-2 h-16 my-2">
-                <div className="mr-2 sm:ml-0">{`${userInfo.total_karma} Karma`}</div>
+                <div className="mr-2 sm:ml-0">{`${userInfo.subreddit.public_description}`}</div>
+                <div className="mr-2 sm:ml-0">{`${userInfo.subreddit.display_name_prefixed} • {`${userInfo.total_karma} karma`}</div>
                 <span className="px-2">·</span>
                 <div className="mx-2">
                   <a
