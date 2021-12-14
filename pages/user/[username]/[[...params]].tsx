@@ -30,8 +30,6 @@ export const getServerSideProps: GetServerSideProps = async ({
   };
 };
 
-if(userInfo.is_employee){const admin = "Admin • ";}else{const admin = "";}
-
 const UserPage = ({ postData, userInfo, params }: any) => {
   const [{ posts, after }, setPostData] = useState(postData);
   // const [selectedParams, setSelectedParams] = useState({
@@ -45,6 +43,11 @@ const UserPage = ({ postData, userInfo, params }: any) => {
     });
     setPostData({ posts: [...posts, ...next.posts], after: next.after });
   };
+  if (userInfo.is_employee) {
+    const admin = "Admin • ";
+  } else {
+    const admin = "";
+  }
   return (
     <div>
       <TitleHead title={`${userInfo.name} – Reddium`}>
