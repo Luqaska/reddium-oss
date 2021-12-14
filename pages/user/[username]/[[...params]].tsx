@@ -30,6 +30,8 @@ export const getServerSideProps: GetServerSideProps = async ({
   };
 };
 
+if(userInfo.is_employee){const admin = "Admin • ";}else{const admin = "";}
+
 const UserPage = ({ postData, userInfo, params }: any) => {
   const [{ posts, after }, setPostData] = useState(postData);
   // const [selectedParams, setSelectedParams] = useState({
@@ -82,8 +84,7 @@ const UserPage = ({ postData, userInfo, params }: any) => {
                 </a>
               </div>
               <div className="flex flex-row items-center sub-link-grey sm:mt-2 h-16 my-2">
-                <div className="mr-2 sm:ml-0">{`${userInfo.subreddit.public_description}`}</div>
-                <div className="mr-2 sm:ml-0">{`${userInfo.subreddit.display_name_prefixed} • {`${userInfo.total_karma} karma`}</div>
+                <div className="mr-2 sm:ml-0">{`${admin}${userInfo.total_karma} karma`}</div>
                 <span className="px-2">·</span>
                 <div className="mx-2">
                   <a
