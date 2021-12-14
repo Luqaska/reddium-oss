@@ -44,9 +44,9 @@ const UserPage = ({ postData, userInfo, params }: any) => {
     setPostData({ posts: [...posts, ...next.posts], after: next.after });
   };
   if (userInfo.is_employee) {
-    const admin = "Admin • ";
+    var admin = "Admin • ";
   } else {
-    const admin = "";
+    var admin = "";
   }
   return (
     <div>
