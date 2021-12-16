@@ -156,17 +156,7 @@ export const NavMenu = ({ token = "" }: any) => {
           ""
         )}
         <a
-          href="https://ko-fi.com/eightants"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            className="h-8 cursor-pointer p-1 ml-2 sub-opacity-68 link-black-hover"
-            src="/coffee.svg"
-          />
-        </a>
-        <a
-          href="https://github.com/eightants/reddium/"
+          href="https://github.com/luqaska/reddium-oss"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -177,7 +167,7 @@ export const NavMenu = ({ token = "" }: any) => {
         </a>
       </div>
       <a
-        href="https://github.com/eightants/reddium/"
+        href="https://github.com/luqaska/reddium-oss"
         target="_blank"
         rel="noopener noreferrer"
       >
