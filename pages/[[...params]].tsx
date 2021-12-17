@@ -85,6 +85,9 @@ const IndexPage = ({ trendingSubs, profile, params }: any) => {
   return (
     <Layout title="Reddium – Medium-themed Reddit client" token={params.token}>
       <div className="lg:w-auto lg:mx-12 mx-auto w-full flex main-container max-width-main pb-10 sm:mx-6">
+        <p className="heading-text text-sm tracking-wide">
+          The login button doesn't work, we're currently, working on solving this issue
+        </p>
         <MidContainer>
           <LargeCard {...posts[0]} />
         </MidContainer>
@@ -237,7 +240,7 @@ const IndexPage = ({ trendingSubs, profile, params }: any) => {
               <img className="w-4/12 float-right" src="/signature.png" />
             </div>
             <a
-              href="https://github.com/eightants/reddium/"
+              href="https://github.com/luqaska/reddium-oss"
               target="_blank"
               rel="noopener noreferrer"
             >
